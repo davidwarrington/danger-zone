@@ -1,6 +1,6 @@
 import { message, danger } from "danger";
 
-const createList = (prefix: string) => (items: string[]) => {
+const createList = (prefix) => (items) => {
   return `${prefix}\n- ${items.join("\n- ")}`;
 };
 
