@@ -1,7 +1,7 @@
 import { danger, message, warn } from "danger";
 
 const createList = (prefix) => (items) => {
-  return `${prefix}\n- ${items.join("\n- ")}`;
+  return `${prefix}<br>- ${items.join("<br>- ")}`;
 };
 
 const allFiles = [
